@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cybersecureteachmobileapplication">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".QuestionResultsActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionTenActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionNineActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionEightActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionSevenActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionSixActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionFiveActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionFourActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionThreeActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".QuestionTwoActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="Welcome"
+            android:theme="@style/Theme.CyberSecureTeachMobileApplication" />
+        <activity
+            android:name=".IntroductionActivity"
+            android:label="1.Introduction"
+            android:theme="@style/Theme.CyberSecureTeachMobileApplication" />
+        <activity
+            android:name=".PasswordActivity"
+            android:label="2.Password Security"
+            android:theme="@style/Theme.CyberSecureTeachMobileApplication" />
+        <activity
+            android:name=".EmailActivity"
+            android:label="3.Email Safety"
+            android:theme="@style/Theme.CyberSecureTeachMobileApplication" />
+        <activity
+            android:name=".InternetActivity"
+            android:label="4.Internet Browsing"
+            android:theme="@style/Theme.CyberSecureTeachMobileApplication" />
+        <activity
+            android:name=".QuestionOneActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".QuizActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

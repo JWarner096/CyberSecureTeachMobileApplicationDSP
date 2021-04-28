@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionFourActivity"
+    android:background="#61B329">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cyber Security Quiz"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/lockwhite"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="20sp"/>
+
+        <TextView
+            android:id="@+id/tvQuestion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:text="question 4"
+            android:textColor="#5c5c5c"
+            android:padding="5dp"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/quiz_progress4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical">
+
+            <ProgressBar
+                android:id="@+id/determinate_bar4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progressTint="@color/white"
+                android:progressBackgroundTint="#447E1E"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:maxHeight="50dp"
+                android:progress="2"
+                android:indeterminate="false"
+                />
+
+            <TextView
+                android:id="@+id/tvProgress4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:text="10%" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTrue4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="True"/>
+        <Button
+            android:id="@+id/btnFalse4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="False" />
+
+    </LinearLayout>
+</ScrollView>

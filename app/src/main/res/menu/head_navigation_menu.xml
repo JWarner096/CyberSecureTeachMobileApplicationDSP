@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuWelcome"
+        android:title="Welcome"/>
+    <item
+        android:id="@+id/menuIntroduction"
+        android:title="1.Introduction"/>
+    <item
+        android:id="@+id/menuPassword"
+        android:title="2.Password Security"/>
+    <item
+        android:id="@+id/menuEmail"
+        android:title="3.Email Safety"/>
+    <item
+        android:id="@+id/menuIP"
+        android:title="4.Internet Browsing"/>
+    <item
+        android:id="@+id/menuQuiz"
+        android:title="Quiz"/>
+</menu>
